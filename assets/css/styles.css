@@ -10,10 +10,13 @@ body{
 }
 
 .active{
-    padding-right: 30px;
+    padding-right: 30px; font-weight: 1000; color: #ffffff;
+}
+.join{
+    padding-left: 30px; font-weight: 1000; color: #ffffff;
 }
 .programs{
-    padding-right: 30px;
+    font-weight: 1000; color: #ffffff;
 }
 
 
@@ -24,32 +27,34 @@ button {
 }
 
 .navbar{
-    background-color:rgb(255, 255, 255); width: 1440px; opacity: 0.2;;
+    background-color:rgb(20, 9, 9); opacity: 0.5;
+    text-align: right;
     font-size: 20px;
     padding: 10px;
-   margin: 30px;
+   /* margin: 30px; */
     
     
 }
 
-.programs{
-    font-weight: bolder;
-}
 
-.prog{
-    display: inline;
-}
-.mem{
-    display: inline;
-}
-.join{
-    display: inline;
-}
 
+.form{
+    padding: 0 100px 20px 1100px; 
+    background-color:rgb(20, 9, 9); opacity: 0.5;
+    border: white 1px dotted;
+    
+    
+    
+}
 .WelcomeMessage{
-    padding-left: 30px;
+    padding-left: 100px;
+    
 }
 
 .input{
-    padding-left: 100px;
+    
+}
+
+footer{
+    padding: 200px 0 0 1300px;
 }
