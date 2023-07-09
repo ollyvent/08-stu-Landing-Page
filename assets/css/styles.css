@@ -1,0 +1,55 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/27/23/00/weight-lifting-1284616_1280.jpg"); 
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    background-color: steelblue;
+       
+}
+
+.active{
+    padding-right: 30px;
+}
+.programs{
+    padding-right: 30px;
+}
+
+
+
+
+button {
+    color: #000; 
+}
+
+.navbar{
+    background-color:rgb(255, 255, 255); width: 1440px; opacity: 0.2;;
+    font-size: 20px;
+    padding: 10px;
+   margin: 30px;
+    
+    
+}
+
+.programs{
+    font-weight: bolder;
+}
+
+.prog{
+    display: inline;
+}
+.mem{
+    display: inline;
+}
+.join{
+    display: inline;
+}
+
+.WelcomeMessage{
+    padding-left: 30px;
+}
+
+.input{
+    padding-left: 100px;
+}
