@@ -11,11 +11,15 @@ body{
        
 }
 
-.active{
-    padding-right: 30px; font-weight: 1000; color: #f1b126;
+h1{
+    position: static;
 }
-.join{
-    padding-left: 30px; font-weight: 1000; color: #f1b126;
+
+.active{
+    padding-right: 20px; font-weight: 1000; color: #f1b126;
+}
+.contact{
+    padding-left: 20px; font-weight: 1000; color: #f1b126;
 }
 .programs{
     font-weight: 1000; color: #f1b126;
@@ -36,6 +40,7 @@ button {
 
 .mid-box{
     display: flex;
+    padding-bottom: 0;
 }
 
 
@@ -43,21 +48,22 @@ button {
 
 
 .form-right{
-    padding: 10px 100px 40px 50px; 
-    background-color:rgb(20, 9, 9); opacity: 0.5; width: 300px;
+    padding: 5px 100px 0px 50px; 
+    background-color:rgb(20, 9, 9); opacity: 0.5; width: 300px; height: 400px ;
     border: white 1px dotted;
     border-radius: 10px;
-    margin: 100px 100px 100px 375px; 
+    margin: 30px 100px 0 375px; 
       
     flex-basis: 75%;
 }
 
 .WelcomeMessage-left{
-    padding: 100px 0 100px 100px;
+    padding: 0 0 0 100px;
     display: inline;
     flex-basis: 25%;
     font-size: 50px;
     margin-left: 100px;
+    margin-bottom: 0;
     
 }
 
@@ -69,6 +75,28 @@ button {
 }
 
 footer{
-    padding: 200px 0 50px 1300px;
-    color: rgb(145, 139, 229);
+    padding: 0 0 0 1300px;
+    color: rgb(237, 57, 57);
 }
+
+.bottom-content {
+    display: flex;
+}
+
+.dumbell{
+    flex-basis: 65%;
+    margin: 0 100px 0 200px;
+    
+}
+
+img{
+    border: #f1b126 3px solid;
+    border-radius: 100px 10px 100px 10px;
+}
+
+.new-left{
+    flex-basis: 35%;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
